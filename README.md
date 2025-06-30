@@ -14,7 +14,6 @@ This repo is dedicated to my journey of learning React Native, following along w
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/)
-- [Yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/)
 - [Expo CLI](https://docs.expo.dev/get-started/installation/) (optional, if using Expo)
 - Android Studio or Xcode (for running on emulators/simulators)
 
