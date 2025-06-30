@@ -1,0 +1,75 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+app-example
+
+# Local experiment files
+src/components/abrarBD.tsx
+src/assets/abrar.jpg
+src/assets/abrarAss.jpg
+
+# 🔐 Keystore files (DO NOT track these)
+android/app/my-release-key.keystore
+android/app/debug.keystore
+*.keystore
+
+# 🏗️ Build artifacts and Gradle cache
+.gradle/
+android/app/build/
+android/.gradle/
+
+# ⚙️ Optional Gradle wrapper binary (jar file)
+android/gradle/wrapper/gradle-wrapper.jar
+
+# 🧼 Logs, system clutter, and TypeScript metadata
+*.log
+*.tsbuildinfo
+.DS_Store
+
+# Metro bundler
+.metro-cache/
+.metro-health-check*
+
+# VS Code or JetBrains (choose if you use)
+.vscode/
+.idea/
+
+# Output artifacts (if building)
+*.apk
+*.aab
+*.tar.gz
