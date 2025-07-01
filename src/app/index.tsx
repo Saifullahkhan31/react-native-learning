@@ -13,6 +13,7 @@ import FlatListChallenge2 from "../Topics/FlatList/components/FlatListChallenge2
 import NameComponent from "../Topics/IntroToComponents/components/NameComponent";
 import ProductComponent from "../Topics/PROPS/components/ProductComponent";
 import Props from "../Topics/PROPS/app";
+import ConditionalRendering from "../Topics/Conditional Rendering/app";
 
 const Index = () => {
 
@@ -27,12 +28,13 @@ const Index = () => {
       <HobbyComponent/>
       <Challenge2Button/>
       <CarComponent/>
-      <ListData/> */}
-     {/* <ArrayOfObject/> */}
-     {/* <FlatListChallenge/>
-     <FlatListChallenge2/> */}
+      <ListData/>
+     <ArrayOfObject/>
+     <FlatListChallenge/>
+     <FlatListChallenge2/>
+     <Props/> */}
 
-     <Props/>
+     <ConditionalRendering/>
 
   </View>
 
