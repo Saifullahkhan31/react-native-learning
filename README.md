@@ -11,6 +11,10 @@ This repo is dedicated to my journey of learning React Native, following along w
 
 ## Getting Started
 
+## Topics Folder
+
+The [topics](https://github.com/Saifullahkhan31/react-native-learning/tree/main/topics) folder contains organized notes, code samples, and mini-projects for each major React Native concept covered during my learning journey. If you’re looking for structured deep dives on particular topics, start here!
+
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/)
