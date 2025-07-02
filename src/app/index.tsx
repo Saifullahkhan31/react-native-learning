@@ -14,6 +14,7 @@ import NameComponent from "../Topics/IntroToComponents/components/NameComponent"
 import ProductComponent from "../Topics/PROPS/components/ProductComponent";
 import Props from "../Topics/PROPS/app";
 import ConditionalRendering from "../Topics/Conditional Rendering/app";
+import UseState from "../Topics/useState/app";
 
 const Index = () => {
 
@@ -32,9 +33,10 @@ const Index = () => {
      <ArrayOfObject/>
      <FlatListChallenge/>
      <FlatListChallenge2/>
-     <Props/> */}
+     <Props/>
+     <ConditionalRendering/>*/}
 
-     <ConditionalRendering/>
+     <UseState/>
 
   </View>
 

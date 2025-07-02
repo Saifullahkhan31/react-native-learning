@@ -9,8 +9,12 @@ const InvalidPass = () => {
     return <Text>Invalid Password</Text>
 }
 
+type PasswordProps = {
+  isValid: boolean;
+}
 
-const Password = ({isValid}) => {
+
+const Password = ({isValid}: PasswordProps) => {
     // if (isValid) {
     //     return <ValidPass />
     // }
