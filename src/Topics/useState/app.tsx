@@ -5,6 +5,7 @@ import WithState from './components/Basic Counter/withState'
 import UpdatingArrays from './components/Updating Arrays/UpdatingArrays'
 import UpdateObjects from './components/Update Objects/UpdateObjects'
 import SharedState from './components/Sharing State/SharedState'
+import Toggler from './components/State Challenge 1/Toggler'
 
 const UseState = () => {
   return (
@@ -13,7 +14,8 @@ const UseState = () => {
         <WithState/> */}
         {/* <UpdatingArrays /> */}
         {/* <UpdateObjects/> */}
-        <SharedState/>
+        {/* <SharedState/> */}
+        <Toggler/>
     </View>
   )
 }
