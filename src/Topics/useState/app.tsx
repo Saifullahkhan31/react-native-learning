@@ -7,6 +7,7 @@ import UpdateObjects from './components/Update Objects/UpdateObjects'
 import SharedState from './components/Sharing State/SharedState'
 import Toggler from './components/State Challenge 1/Toggler'
 import WeatherApp from './components/State Challenge 2/WeatherApp'
+import ColorPicker from './components/State Challenge 3/ColorPicker'
 
 const UseState = () => {
   return (
@@ -17,7 +18,8 @@ const UseState = () => {
         {/* <UpdateObjects/> */}
         {/* <SharedState/> */}
         {/* <Toggler/> */}
-        <WeatherApp/>
+        {/* <WeatherApp/> */}
+        <ColorPicker/>
     </View>
   )
 }
