@@ -6,6 +6,7 @@ import UpdatingArrays from './components/Updating Arrays/UpdatingArrays'
 import UpdateObjects from './components/Update Objects/UpdateObjects'
 import SharedState from './components/Sharing State/SharedState'
 import Toggler from './components/State Challenge 1/Toggler'
+import WeatherApp from './components/State Challenge 2/WeatherApp'
 
 const UseState = () => {
   return (
@@ -15,7 +16,8 @@ const UseState = () => {
         {/* <UpdatingArrays /> */}
         {/* <UpdateObjects/> */}
         {/* <SharedState/> */}
-        <Toggler/>
+        {/* <Toggler/> */}
+        <WeatherApp/>
     </View>
   )
 }
