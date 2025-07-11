@@ -28,8 +28,7 @@ const TodoList = () => {
 
     const renderTodo = ({item}:TodoItemProp) => {
 
-        return(
-
+    return(
         <TouchableOpacity onPress={() => removeTodo(item.id)}>
         <View style={styles.taskContainer} >
         <Text style={styles.taskText } >{item.text}</Text>

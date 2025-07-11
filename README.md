@@ -15,6 +15,12 @@ This repo is dedicated to my journey of learning React Native, following along w
 
 The [topics](https://github.com/Saifullahkhan31/react-native-learning/tree/main/topics) folder contains organized notes, code samples, and mini-projects for each major React Native concept covered during my learning journey. If you’re looking for structured deep dives on particular topics, start here!
 
+### Structure
+
+The repository has folder for all topics covered and each topic has subfolders with components and an app.tsx file where all the components are imported and rendered.
+
+Each of those app.tsx files are then imported in the main index.tsx file in the root of the repository. This is the entry point of the application. When working on a specific topic, only that topic's app.tsx file is imported, others are commented out to avoid any conflicts.
+
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/)
