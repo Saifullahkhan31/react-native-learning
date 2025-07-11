@@ -26,7 +26,9 @@ const TodoList = () => {
         setTodos(todos.filter( (todo) => todo.id !== id ))
     }
 
-    const renderTodo = ({item}:TodoItemProp) => (
+    const renderTodo = ({item}:TodoItemProp) => {
+
+        return(
 
         <TouchableOpacity onPress={() => removeTodo(item.id)}>
         <View style={styles.taskContainer} >
@@ -34,8 +36,8 @@ const TodoList = () => {
         </View>
 
         </TouchableOpacity>
-
-    )
+        )
+    }
 
     const handleSubmit = () => {
         addTodo()
