@@ -15,6 +15,7 @@ import ProductComponent from "../Topics/PROPS/components/ProductComponent";
 import Props from "../Topics/PROPS/app";
 import ConditionalRendering from "../Topics/Conditional Rendering/app";
 import UseState from "../Topics/useState/app";
+import UseEffect from "../Topics/useEffect/app";
 
 const Index = () => {
 
@@ -35,8 +36,9 @@ const Index = () => {
      <FlatListChallenge2/>
      <Props/>
      <ConditionalRendering/>*/}
+     {/* <UseState/> */}
 
-     <UseState/>
+     <UseEffect/>
 
   </View>
 
