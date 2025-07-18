@@ -11,7 +11,7 @@ const UseEffect = () => {
       {/* <MyEffect /> */}
       {/* <DataFetching/> */}
       {/* <SeaFoodMeals /> */}
-      <RandomUser/>
+      {/* <RandomUser/> */}
     </View>
   )
 }

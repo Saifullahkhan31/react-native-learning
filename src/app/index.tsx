@@ -16,6 +16,7 @@ import Props from "../Topics/PROPS/app";
 import ConditionalRendering from "../Topics/Conditional Rendering/app";
 import UseState from "../Topics/useState/app";
 import UseEffect from "../Topics/useEffect/app";
+import UseReducer from "../Topics/useReducer/app";
 
 const Index = () => {
 
@@ -37,8 +38,9 @@ const Index = () => {
      <Props/>
      <ConditionalRendering/>*/}
      {/* <UseState/> */}
+     {/* <UseEffect/> */}
 
-     <UseEffect/>
+     <UseReducer/>
 
   </View>
 
