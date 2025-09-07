@@ -1,4 +1,4 @@
-import { View, Text, FlatList } from "react-native";
+import { View, Text, FlatList, SafeAreaView } from "react-native";
 import AgeComponent from "../Topics/Styling/components/ageComponent";
 import IntroToComponents from "../Topics/IntroToComponents/app";
 import ButtonComponent from "../Topics/Buttons/components/buttonComponent";
@@ -17,6 +17,12 @@ import ConditionalRendering from "../Topics/Conditional Rendering/app";
 import UseState from "../Topics/useState/app";
 import UseEffect from "../Topics/useEffect/app";
 import UseReducer from "../Topics/useReducer/app";
+import UseContext from "../Topics/useContext/app";
+import { UserProvider } from "../Topics/useContext/context/UserContext";
+import ComponentA from "../Topics/useContext/components/ComponentA";
+import { NumberProvider } from "../Topics/useContext/challenge/Context/RandomNumberContext";
+import RandomNumber from "../Topics/useContext/challenge/Components/RandomNumber";
+import AddRandomNumber from "../Topics/useContext/challenge/Components/AddRandomNumber";
 
 const Index = () => {
 
@@ -39,8 +45,18 @@ const Index = () => {
      <ConditionalRendering/>*/}
      {/* <UseState/> */}
      {/* <UseEffect/> */}
+     {/* <UseReducer/> */}
 
-     <UseReducer/>
+     {/* <UserProvider>
+       <ComponentA/>
+     </UserProvider> */}
+
+     <NumberProvider>
+      <SafeAreaView>
+        <RandomNumber/>
+        <AddRandomNumber/>
+      </SafeAreaView>
+     </NumberProvider>
 
   </View>
 

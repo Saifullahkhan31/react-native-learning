@@ -9,7 +9,7 @@ const UseReducer = () => {
     <View>
       {/* <Counter/> */}
       {/* <Todo/> */}
-      <UserProfiles/>
+      {/* <UserProfiles/> */}
     </View>
   )
 }
