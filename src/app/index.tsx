@@ -24,6 +24,7 @@ import { NumberProvider } from "../Topics/useContext/challenge/Context/RandomNum
 import RandomNumber from "../Topics/useContext/challenge/Components/RandomNumber";
 import AddRandomNumber from "../Topics/useContext/challenge/Components/AddRandomNumber";
 import CustomHooks from "../Topics/CustomHooks/app";
+import { Link } from "expo-router";
 
 const Index = () => {
 
@@ -59,7 +60,12 @@ const Index = () => {
       </SafeAreaView>
      </NumberProvider> */}
 
-      <CustomHooks/>
+      {/* <CustomHooks/> */}
+
+      <Text>Index Screen</Text>
+      <Link href="/Home"> Go to Home Screen </Link>
+      <Link href="/About"> Go to About Screen </Link>
+      <Link href="/Contact"> Go to Contact Screen </Link>
 
   </View>
 
