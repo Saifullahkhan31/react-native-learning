@@ -23,6 +23,7 @@ import ComponentA from "../Topics/useContext/components/ComponentA";
 import { NumberProvider } from "../Topics/useContext/challenge/Context/RandomNumberContext";
 import RandomNumber from "../Topics/useContext/challenge/Components/RandomNumber";
 import AddRandomNumber from "../Topics/useContext/challenge/Components/AddRandomNumber";
+import CustomHooks from "../Topics/CustomHooks/app";
 
 const Index = () => {
 
@@ -51,12 +52,14 @@ const Index = () => {
        <ComponentA/>
      </UserProvider> */}
 
-     <NumberProvider>
+     {/* <NumberProvider>
       <SafeAreaView>
         <RandomNumber/>
         <AddRandomNumber/>
       </SafeAreaView>
-     </NumberProvider>
+     </NumberProvider> */}
+
+      <CustomHooks/>
 
   </View>
 
