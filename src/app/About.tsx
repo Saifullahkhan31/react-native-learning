@@ -5,8 +5,9 @@ import { Link } from 'expo-router'
 const About = () => {
   return (
     <View>
-        <Link href="/Index" >Back</Link>
+      
       <Text>About Screen</Text>
+      <Link href="/users/1" >Go to Users Screen</Link>
     </View>
   )
 }
