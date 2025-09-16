@@ -1,4 +1,4 @@
-import { Stack } from "expo-router";
+import { Stack, Tabs } from "expo-router";
 
 const RootLayout = () => {
     return (
@@ -18,6 +18,12 @@ const RootLayout = () => {
             }} />
             <Stack.Screen name="users/[id]" />
         </Stack>
+
+        // <Tabs>
+        //     <Tabs.Screen name="Index" />
+        //     <Tabs.Screen name="About" />
+        //     <Tabs.Screen name="users/[id]" />
+        // </Tabs>
     )
 }
 
